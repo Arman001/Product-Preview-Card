@@ -4,6 +4,7 @@
   /* ___|COLORS|___ */
   /* Primary */
   --DARK-CYAN: hsl(158, 36%, 37%);
+  --DARKER-CYAN: hsl(158, 50%, 21%);
   --CREAM: hsl(30, 38%, 92%);
   /* Neutral */
   --VERY-DARK-BLUE: hsl(212, 21%, 14%);
@@ -97,7 +98,12 @@ h3{
   font-size: 1rem;
   font-weight: 700;
   padding: 1.1em;
+  cursor: pointer;
   
+}
+
+.card-detail button:hover{
+  background-color: var(--DARKER-CYAN);
 }
 
 .card-detail button img{
